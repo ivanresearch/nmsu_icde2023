@@ -17,12 +17,12 @@ def ret_args():
                         nargs='?')
     parser.add_argument('attn_key', type=str, default="group_attn",
                         nargs='?')
-    parser.add_argument('batch_control', type=str, default='false',
-                        nargs='?')
-    parser.add_argument('ga_sigma', type=float, default=1.0,
-                        nargs='?')
     parser.add_argument('data_pre_key', type=str, default="",
                         nargs='?') # Can be "" or "mts" or "uts"
+    parser.add_argument('ga_sigma', type=float, default=1.0,
+                        nargs='?')
+    parser.add_argument('batch_control', type=str, default='false',
+                        nargs='?')
 
     # dataset settings
     parser.add_argument('--data_path', type=str, default="./data/",
