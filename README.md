@@ -1,4 +1,4 @@
-This is the code repository for paper, Class-Specific Attention (CSA) for Time-Series Classification, that we submitted to ICDE 2023.
+This is the code repository for paper, Class-Specific Attention (CSA) for Time-Series Classification, that was submitted to ICDE 2023.
 
 This paper uses 40 datasets, 28 multivariate time series and 12 univariate time series datasets. This repository has one dataset as a running example. Other datasets can be found: http://www.timeseriesclassification.com/dataset.php 
 
